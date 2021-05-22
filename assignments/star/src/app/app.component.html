@@ -17,18 +17,9 @@
 <span class="heading">User Rating</span>
 <ngb-rating  class="fa checked"[max] = "5" [(rate)] = "currentRate" [readonly] = "false"></ngb-rating>
 <br>
+<!-- assignment title case -->
 <input class="" type="text" [(ngModel)]="inp">
 <p>{{inp|titleCase}}</p>
-
-
-
-
-
-
-
-
-
-
 
 <p>Your rating: {{currentRate}}</p>
 <button class='btn btn-primary' (click) = "reload()">submit</button>

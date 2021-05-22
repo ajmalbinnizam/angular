@@ -1,6 +1,0 @@
-ng new myapp
-ng add @angular/pwa
-typescriptdefine custom js
-html to typescriptdefine
-
-ng install bootstrap --save
