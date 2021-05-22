@@ -10,4 +10,10 @@ export class AppComponent {
   imgUrl = 'https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg'
   name="Angular v"+VERSION.major;
   currentRate = 0;
+  inp:string;
+  
+  reload() {
+    window.location.reload();
+   }
+
 }

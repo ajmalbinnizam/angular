@@ -14,12 +14,24 @@
 <img src="{{imgUrl}}" alt="">
  <h3>{{name}} user rating</h3>
 </div>  
-
 <span class="heading">User Rating</span>
 <ngb-rating  class="fa checked"[max] = "5" [(rate)] = "currentRate" [readonly] = "false"></ngb-rating>
+<br>
+<input class="" type="text" [(ngModel)]="inp">
+<p>{{inp|titleCase}}</p>
+
+
+
+
+
+
+
+
+
 
 
 <p>Your rating: {{currentRate}}</p>
+<button class='btn btn-primary' (click) = "reload()">submit</button>
 <p>4.1 average based on 254 reviews.</p>
 <hr style="border:3px solid #f1f1f1">
 
