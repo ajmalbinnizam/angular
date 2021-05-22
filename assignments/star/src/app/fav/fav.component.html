@@ -1,11 +1,6 @@
 <h3>so how many stars can you give?</h3>
 
-<span 
-  class="glyphicon"
-  [class.glyphicon-star]="isFav"
-  [class.glyphicon-star-empty]="!isFav"
-  (click)="onClick()"
-  ></span>
+<span class="glyphicon" [class]="'glyphicon-star' + (isFav? '' : '-empty')"></span>
   <span 
   class="glyphicon"
   [class.glyphicon-star]="isFav"

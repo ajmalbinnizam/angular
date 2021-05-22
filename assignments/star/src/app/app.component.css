@@ -24,9 +24,6 @@ h1 {
   }
 
 
-
-
-  
 * {
   box-sizing: border-box;
 }
@@ -85,7 +82,7 @@ body {
 }
 
 /* Individual bars */
-.bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
+.bar-5 {width: 20%; height: 18px; background-color: #04AA6D;}
 .bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
 .bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
 .bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
@@ -98,5 +95,8 @@ body {
   }
   .right {
     display: none;
+  }
+  h3{
+    font-size: 10px;
   }
 }
