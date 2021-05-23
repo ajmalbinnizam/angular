@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'fav',
@@ -6,6 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fav.component.css']
 })
 export class FavComponent implements OnInit {
+  @Input('likesCount') likesCount:number;
+  @Input('isActive') isActive: boolean;
+onClickHeart(){
+  this.likesCount += (!this.isActive) ? -1: 1;
+  this.isActive = !this.isActive; //is active
+
+}
+
   isFav:boolean;
   constructor() { }
 

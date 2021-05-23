@@ -19,3 +19,16 @@
   * {
     font-family: Arial, Helvetica, sans-serif;
   }
+
+  /* -------heart------- */
+  .glyphicon{
+    color: #ccc;
+    cursor:pointer;
+  }
+  .highlighted{
+    color: red;
+    
+  }
+  .glyphicon-star{
+    color: orange;
+  }

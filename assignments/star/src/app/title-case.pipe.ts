@@ -46,7 +46,7 @@ export class TitleCasePipe implements PipeTransform {
   transform(value: string): any {
     if (!value) return null;
 
-    let preposition = ['the', 'is', 'a'];
+    let preposition = ['of', 'the','is', 'a','in', 'at'];
     let words = value.split(' ');
     for(var i = 0; i<words.length; i++){
       if( preposition.includes(words[i].toLowerCase()))

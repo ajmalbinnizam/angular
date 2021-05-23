@@ -6,14 +6,20 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'star assignment';
+  tweet = {
+    body: '...',
+    likesCount:365,
+    isLiked:true,
+  }
+  title = 'Assignments';
   imgUrl = 'https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg'
   name="Angular v"+VERSION.major;
   currentRate = 0;
   inp:string;
-  
   reload() {
     window.location.reload();
    }
+
+  
 
 }
