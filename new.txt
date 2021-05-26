@@ -1,0 +1,5 @@
+(li>a)*3
+ div.panel.panel-default>div.panel-heading+div.panel-body 
+ <!-- label+input[type='text'].form-control -->
+ div.form-group>label[for='comment']+textarea[id='comment'].form-control
+ ng g c contact-form

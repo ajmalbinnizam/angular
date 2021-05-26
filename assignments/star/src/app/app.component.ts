@@ -19,7 +19,11 @@ export class AppComponent {
   reload() {
     window.location.reload();
    }
-
+isExpanded : boolean;
+toggle(){
+  this.isExpanded = !this.isExpanded;
+}
+   
   
 
 }

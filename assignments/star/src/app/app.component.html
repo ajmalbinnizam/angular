@@ -29,6 +29,23 @@
 
 <p>Your rating: {{currentRate}}</p>
 <button class='btn btn-primary' (click) = "reload()">submit</button>
+
+<!-- zippy dropdown -->
+<div class="zippy">
+  <div class="zippy-heading"
+  [class.expanded] = "isExpanded"
+  (click) = "toggle()"
+  >
+    More
+    <span class="glyphicon"
+    [ngClass]="{
+      'glyphicon-chevron-up':isExpanded,
+      'glyphicon-chevron-down':!isExpanded
+    }"
+    ></span>
+  </div>
+  <div *ngIf= "isExpanded" class="zippy-body">
+    <!--  -->
 <p>4.1 average based on 254 reviews.</p>
 <hr style="border:3px solid #f1f1f1">
 
@@ -92,9 +109,12 @@
 
 
 
+  </div>
+</div>
 
 
-<h1></h1>
+
+
 </body>
 </html>
 

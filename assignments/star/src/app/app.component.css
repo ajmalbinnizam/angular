@@ -23,7 +23,6 @@ h1 {
 
   }
 
-
 * {
   box-sizing: border-box;
 }
@@ -100,3 +99,20 @@ body {
     font-size: 10px;
   }
 }
+/* zippy */
+ .zippy{
+   margin-top: 10px;
+   border: 1px solid #ccc;
+   border-radius: 2px;
+ }
+ .zippy-heading{
+   font-weight: bold;
+   padding:20px;
+   cursor: pointer;
+ }
+ .zippy-body{
+   padding: 20px;
+ }
+ .expanded{
+   background-color: #f0f0f0;
+ }

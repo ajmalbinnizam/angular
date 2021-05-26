@@ -6,6 +6,10 @@
   class="glyphicon"
   [class.glyphicon-star]="isFav"
   [class.glyphicon-star-empty]="!isFav"
+  [ngClass]="{
+    'glyphicon-star':isFav,
+    'glyphicon-star-empty':!isFav
+  }"
   (click)="onClick()"
   ></span>
   <span 
