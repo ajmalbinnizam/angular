@@ -3,3 +3,8 @@
     /* margin:10px; */
     padding: 5px;
 }
+
+
+.form-control.ng-touched.ng-invalid{
+    border:2px solid red;
+}
