@@ -8,17 +8,14 @@
 <body>
   <!-- heart like -->
   <h1>{{title}}</h1>
-
   <fav  [likesCount] = "tweet.likesCount"
    [isActive] = "tweet.isLiked"
   ></fav>
-
   <!-- <fav></fav> -->
   <br><br>
-
 <div class="heading">
 <img src="{{imgUrl}}" alt="">
- <h3>{{name}} user rating</h3>
+ <h3 class="h3">{{name}} user rating</h3>
 </div>  
 <span class="heading">User Rating</span>
 <ngb-rating  class="fa checked" [max] = "5"   [(rate)] = "currentRate" [readonly] = "false"></ngb-rating>
@@ -111,10 +108,9 @@
 
   </div>
 </div>
-
-
-
-
+<!-- form -->
+<h2>bug report</h2>
+<new-course-form></new-course-form>
 </body>
 </html>
 

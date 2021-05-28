@@ -19,7 +19,7 @@
 <div *ngSwitchCase="'map'">Map view content</div>
 <div *ngSwitchCase= "'list'">list view content</div>
 <div *ngSwitchDefault>othewise</div>
-</div> -->
+</div> 
 <ul class="nav nav-pills">
   <li [class.active] = "viewMode == 'map'"><a (click) = "viewMode='map'"> map</a></li>
   <li [class.active] = "viewMode == 'list'" ><a (click) = "viewMode='list'">list</a></li>
@@ -28,6 +28,7 @@
 <div *ngSwitchCase= "'map'"> map view</div>
 <div *ngSwitchCase = "'list'"> list view</div>
 <div *ngSwitchDefault> otherwise</div></div>
+<!--  -->
 <!-- ngFor -->
 <ul>
   <button (click)  = 'onAdd()'>add</button>
@@ -60,5 +61,8 @@
 
 <!-- bootstrap -->
 <contact-form>
-  
+
 </contact-form>
+
+<!-- reactive form -->
+<signup-form></signup-form>

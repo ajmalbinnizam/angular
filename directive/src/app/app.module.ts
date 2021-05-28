@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InputFormatDirective } from './input-format.directive';
 import { ContactFormComponent } from './contact-form/contact-form.component';
+import { SignupFormComponent } from './signup-form/signup-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InputFormatDirective,
-    ContactFormComponent
+    ContactFormComponent,
+    SignupFormComponent,
   ],
   imports: [
     BrowserModule,
