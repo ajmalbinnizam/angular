@@ -46,6 +46,7 @@ body {
 
 .checked {
   color: orange;
+  /* background-color: red; */
 }
 
 /* Three column layout */

@@ -3,3 +3,10 @@
  <!-- label+input[type='text'].form-control -->
  div.form-group>label[for='comment']+textarea[id='comment'].form-control
  ng g c contact-form
+
+ alt + o -- html
+ alt + i -- css
+ alt + u ---ts
+
+ ctrl + k
+ ctrl + f
