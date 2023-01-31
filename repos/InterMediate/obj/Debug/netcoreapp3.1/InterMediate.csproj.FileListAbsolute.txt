@@ -1,0 +1,14 @@
+C:\Users\KG593FF\source\repos\InterMediate\bin\Debug\netcoreapp3.1\InterMediate.exe
+C:\Users\KG593FF\source\repos\InterMediate\bin\Debug\netcoreapp3.1\InterMediate.deps.json
+C:\Users\KG593FF\source\repos\InterMediate\bin\Debug\netcoreapp3.1\InterMediate.runtimeconfig.json
+C:\Users\KG593FF\source\repos\InterMediate\bin\Debug\netcoreapp3.1\InterMediate.runtimeconfig.dev.json
+C:\Users\KG593FF\source\repos\InterMediate\bin\Debug\netcoreapp3.1\InterMediate.dll
+C:\Users\KG593FF\source\repos\InterMediate\bin\Debug\netcoreapp3.1\InterMediate.pdb
+C:\Users\KG593FF\source\repos\InterMediate\obj\Debug\netcoreapp3.1\InterMediate.csproj.AssemblyReference.cache
+C:\Users\KG593FF\source\repos\InterMediate\obj\Debug\netcoreapp3.1\InterMediate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KG593FF\source\repos\InterMediate\obj\Debug\netcoreapp3.1\InterMediate.AssemblyInfoInputs.cache
+C:\Users\KG593FF\source\repos\InterMediate\obj\Debug\netcoreapp3.1\InterMediate.AssemblyInfo.cs
+C:\Users\KG593FF\source\repos\InterMediate\obj\Debug\netcoreapp3.1\InterMediate.csproj.CoreCompileInputs.cache
+C:\Users\KG593FF\source\repos\InterMediate\obj\Debug\netcoreapp3.1\InterMediate.dll
+C:\Users\KG593FF\source\repos\InterMediate\obj\Debug\netcoreapp3.1\InterMediate.pdb
+C:\Users\KG593FF\source\repos\InterMediate\obj\Debug\netcoreapp3.1\InterMediate.genruntimeconfig.cache
